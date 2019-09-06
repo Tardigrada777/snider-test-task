@@ -1,0 +1,23 @@
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+body {
+  font-family: $base;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: $accent;
+  height: 100%;
+}
+
+a {
+  &:hover,
+  &:visited,
+  &:focus {
+    text-decoration: none;
+    color: inherit;
+  }
+  color: inherit;
+  text-decoration: none;
+}

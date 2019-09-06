@@ -1,0 +1,58 @@
+.c-menu {
+  display: flex;
+  justify-content: center;
+
+  @include md(display, none);
+
+  &__item {
+    font-size: 18px;
+    color: $white;
+    position: relative;
+
+    a {
+      &:hover {
+        color: $white;
+        text-decoration: underline;
+      }
+    }
+    &:not(:last-child) {
+      margin-right: 30px;
+
+      &::after {
+        content: '|';
+        position: absolute;
+        right: -20px;
+      }
+    }
+
+    &--mobile {
+      color: $white;
+      font-size: 18px;
+      line-height: 32px;
+      text-align: center;
+    }
+
+    &--footer {
+      text-decoration: underline;
+      line-height: 26px;
+    }
+  }
+
+  &--mobile {
+    display: none;
+    @include md(display, flex);
+    height: 0px;
+    flex-direction: column;
+    transition: all 0.3s ease;
+
+    &.open {
+      height: 200px;
+      padding: 20px 0;
+    }
+  }
+
+  &--footer {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,20 @@
+.c-news-aside {
+  padding: 22px 33px 33px 33px;
+  display: flex;
+  flex-direction: column;
+
+  max-width: 350px;
+  @include md(max-width, 100%);
+
+  &__actions {
+    color: $white;
+    text-decoration: underline;
+    text-align: right;
+
+    a {
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}

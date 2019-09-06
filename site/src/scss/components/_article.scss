@@ -1,0 +1,14 @@
+.c-article {
+  &__heading {
+    font-weight: bold;
+    margin-bottom: 25px;
+    line-height: 22px;
+
+    @include md(line-height, 1.2);
+  }
+  &__content {
+    letter-spacing: 0.35px;
+    word-wrap: break-word;
+    padding-right: 20px;
+  }
+}

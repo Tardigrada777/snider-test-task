@@ -1,0 +1,11 @@
+.c-news-announce {
+  &__date {
+    color: $white;
+    font-style: italic;
+    font-weight: 300;
+  }
+  &__title {
+    color: $white;
+    margin-bottom: 22px;
+  }
+}

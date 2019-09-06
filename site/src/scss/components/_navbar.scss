@@ -1,0 +1,35 @@
+.c-navbar {
+  align-items: center;
+  justify-content: space-between;
+
+  @include row-flex();
+
+  &__logo {
+    @include col();
+    @include size(4);
+    @include size-md(12);
+    @include md(text-align, center);
+  }
+
+  &__sale {
+    @include col();
+    @include size(4);
+    @include size-md(12);
+    @include md(font-size, 26px);
+
+    font-size: 17px;
+    margin-bottom: 15px;
+    align-self: flex-start;
+  }
+
+  &__contact-info {
+    @include col();
+    @include size(4);
+    @include size-md(12);
+    @include md(display, none);
+
+    font-size: 31px;
+    display: flex;
+    flex-direction: column;
+  }
+}

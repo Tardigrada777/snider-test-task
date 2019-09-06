@@ -1,0 +1,24 @@
+.c-footer {
+  padding: 50px 0px;
+
+  @include row-flex();
+
+  flex: 0 0 auto;
+
+  &__copyright {
+    @include col();
+    @include size(3);
+    @include md(display, none);
+  }
+  &__menu {
+    @include col();
+    @include size(6);
+    @include size-md(12);
+    @include md(text-align, center);
+  }
+  &__contacts {
+    @include col();
+    @include size(3);
+    @include md(display, none);
+  }
+}

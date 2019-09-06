@@ -1,0 +1,45 @@
+// Settings imports
+@import './settings/smart-grid';
+@import './settings/colors.scss';
+@import './settings/maps.scss';
+@import './settings/fonts.scss';
+@import './settings/indentation.scss';
+@import './settings/typography.scss';
+@import './settings/utils.scss';
+@import './settings/sizes';
+@import './settings/flex';
+@import './settings/grid';
+
+// Tools imports
+
+// Generic imports
+@import './generic/reset';
+@import './generic/common';
+
+// Elements imports
+@import './elements/elements';
+// Objects imports
+
+// Components imports
+@import './components/main-wrapper';
+@import './components/content';
+
+/* HEADER */
+@import './components/navbar';
+@import './components/main-logo';
+
+/* MENU */
+@import './components/menu';
+
+/* CONTENT */
+@import './components/news-aside';
+@import './components/news-announce';
+@import './components/article';
+
+/* SLIDER */
+@import './components/slider';
+
+/* FOOTER */
+@import './components/footer';
+
+// Utilities imports

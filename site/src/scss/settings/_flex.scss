@@ -1,0 +1,32 @@
+.d {
+  &-flex {
+    display: flex;
+
+    &.j-cont {
+      &--sb {
+        justify-content: space-between;
+      }
+      &--end {
+        justify-content: flex-end;
+      }
+    }
+    &.a-items {
+      &--center {
+        align-items: center;
+      }
+    }
+
+    &.wrap {
+      flex-wrap: wrap;
+    }
+  }
+  &-inline-flex {
+    display: inline-flex;
+  }
+}
+
+.a-self {
+  &--center {
+    align-self: center;
+  }
+}
