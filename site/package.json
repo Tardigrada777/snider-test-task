@@ -23,7 +23,7 @@
     "gulp-sass": "^4.0.2",
     "gulp-typescript": "^5.0.1",
     "gulp-uglify": "^3.0.2",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "smart-grid": "^2.1.2",
     "vinyl-source-stream": "^2.0.0"
   },
